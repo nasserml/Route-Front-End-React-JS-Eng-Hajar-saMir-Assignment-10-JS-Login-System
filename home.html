@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Java script that runs before the loading of the page to chek if the user nam is already exists                                                                                                                                                                   -->
+    <script>
+        if(localStorage.getItem('loggedInUserName') == null){
+            window.location.href='./index.html';
+        }
+    </script>
+
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!-- Custome CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Home CSS -->
+    <link rel="stylesheet" href="./css/home.style.css">
+
+    <title>Home</title>
+</head>
+<body>
+
+    <!-- Beginning of the Navbar -->
+
+    <div class="navbar">
+        <div class="container">
+            
+            <div class="navbar-logo">
+                <a href="#">SMART LOGIN</a>
+            </div>
+
+            <div class="navbar-items">
+               
+                    <a id="logoutButton" class="nav-link btn btn-outline-warning" 
+                   >Logout</a>
+                
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Ending of the Navbar -->
+
+    <!-- Beginning of the Welcome -->
+    <div class="welcome">
+        <div class="container">
+
+            <div class="welcome-box">
+                <h1 id="welcomeName" class="welcome-name"></h1>
+            </div>
+        </div>
+    </div>
+    <!-- Ending of the Welcome -->
+    
+
+    <!-- Home javascript -->
+    <script src="./js/home.js"></script>
+</body>
+</html>

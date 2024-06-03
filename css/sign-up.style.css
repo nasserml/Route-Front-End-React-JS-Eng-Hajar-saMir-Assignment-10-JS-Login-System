@@ -1,0 +1,103 @@
+
+
+
+/*  Sign up CSS Rules ==================== */
+
+.signup{
+    /* background-color: pink; */
+}
+
+.signup-box{
+    /* background-color: aqua; */
+}
+
+.signup-title{
+    /* background-color:teal; */
+}
+
+.signup-form{
+    /* background-color: gold; */
+}
+
+.signup{
+    margin:48px 75px;
+    padding: 0px 15px;
+}
+
+
+.signup-box{
+    padding: 48px;
+    width: 85%;
+    margin: auto !important;
+    box-shadow: -5px 2px 54px -9px rgba(0,0,0,1);
+}
+
+
+.signup-title h1{
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 500px;
+    color: rgb(23,162, 184);
+}
+
+.signup-form input{
+    background-color: transparent !important;
+    color: white !important;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.signup-form .name-signup{
+    padding: 6px 12px;
+    margin: 16px 0px;   
+}
+
+.signup-form .email-signup, .signup-form .password-signup{
+    padding: 6px 12px;
+    margin: 16px 0px;
+}
+
+
+
+.signup-form .signup-button{
+    width: 100%;
+    padding: 6px 12px;
+    margin: 16px 0px;
+    font-size:16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #17A2B8;
+}
+.signup-form .signup-button:hover{
+
+    color: white;
+    background-color: #17A2B8;
+    border-color: #17A2B8;
+}
+
+.signup-form p{
+    margin-bottom: 16px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    line-height:24px;
+    font-weight: 400;
+}
+
+.signup-form p a{
+    text-decoration: none;
+    color: white;
+}
+
+.signup-form p a:hover{
+    text-decoration: underline;
+}
+
+
+.signup-form input::placeholder{
+    color: #B6B6B6;
+}
+

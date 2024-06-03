@@ -1,0 +1,101 @@
+/* Navbar CSS Rules */
+
+.navbar{
+    /* background-color:pink; */
+}
+
+.navbar-logo{
+    /* background-color: teal; */
+}
+
+.navbar-items{
+    /* background-color: tomato; */
+}
+
+.navbar{
+    padding: 8px 15px;
+    box-shadow: -5px 2px 54px -9px rgba(0,0,0,1)
+}
+
+.navbar-logo a{
+    padding: 5px 0px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: white;
+    margin-left:16px;
+}
+
+
+
+.navbar-items  a{
+    text-decoration: none;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height:24px;
+    color: rgba(255,255,255,0.5);
+    border-color: #ffc107;
+    border: 1px solid #ffc107;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s ,color 0.3s ease;
+}
+
+
+.navbar-items a:hover{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/* Welcome CSS Style Rules =================== */
+
+.welcome{
+    /* background-color:tomato; */
+}
+
+
+.welcome-box{
+    /* background-color: gold;; */
+}
+
+.welcome{
+    text-align:center;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    width: 65.5%;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1)
+  
+}
+
+
+.welcome-box{
+    padding: 48px;
+}
+
+
+.welcome-box .welcome-name{
+    margin-bottom: 8px;
+    font-size: 40px;
+    line-height:48px;
+    font-weight: 500;
+    color:rgb(23,162,186);
+}
+
+
+
+
+
+
+

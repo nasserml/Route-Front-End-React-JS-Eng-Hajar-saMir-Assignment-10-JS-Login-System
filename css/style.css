@@ -1,0 +1,141 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+body{
+    font-family: "Titillium Web", sans-serif;
+    background-color: #24353F;
+    box-sizing: border-box;
+}
+.clear-fix{
+    clear: both;
+}
+
+
+/* Login  CSS Rules ===========================*/
+.login{
+    /* background-color: #24353F; */
+}
+
+.login-box{
+    /* background-color: #24353F; */
+}
+
+.login-title{
+    /* background-color: aqua; */
+}
+
+.login-form{
+    /* background-color: gold' */
+}
+
+.login{
+    margin:48px 0px;
+    padding: 0px 15px;
+}
+
+.login-box{
+    padding: 48px;
+    width:70%;
+    margin: auto !important;
+    box-shadow: -5px 2px 54px -9px rgba(0,0,0,1);
+}
+
+.login-title h1{
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 500;
+    color: rgb(23,162, 184)
+}
+
+.float-left{
+    float: left;
+}
+
+.width-100{
+    width: 100%;
+}
+
+.login-form .email-login{
+    float: left;
+    width: 100%;
+    padding: 6px 12px;
+    margin: 16px 0px;
+  
+    font-size: 16px;
+    line-height:24px;
+    font-weight: 400;
+}
+
+.login-form .login-password{
+    float: left;
+    width: 100%;
+    padding: 6px 12px;
+    margin-bottom: 16px;;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+  
+    
+}
+
+.login-form input{
+    background-color:transparent !important;
+    color: white !important;
+    overflow: visible;
+}
+
+.login-form input::placeholder{
+    color: #B6B6B6;
+}
+.login-form .login-button{
+    float: left;
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 16px 0px;
+    color: #17a2b8;
+    /* background-color: #17A2B8; */
+
+}
+
+
+.login-form p{
+    float: left;
+    width:100%;
+    text-align:center;
+    margin-bottom:16px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgb(255,255,255);
+}
+
+.login-form a{
+    text-decoration:none;
+    color: rgb(255,255,255);
+}
+
+.login-form a:hover{
+    text-decoration:underline;
+}
+
+.login-form .login-button:hover{
+    color: white;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+
+
+
+

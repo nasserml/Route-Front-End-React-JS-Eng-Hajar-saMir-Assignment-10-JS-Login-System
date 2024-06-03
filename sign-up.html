@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+     <!-- Google Fonts -->
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+     <!-- Font Awesome -->
+     <link rel="stylesheet" href="./css/all.min.css">
+
+
+     <!-- Custome css -->
+     <link rel="stylesheet" href="./css/style.css">
+
+     <!-- Sign up style CSS -->
+     <link rel="stylesheet" href="./css/sign-up.style.css">
+
+    <title>Signup</title>
+</head>
+<body>
+    
+    <!-- Beginning of the Sign up -->
+
+    <div class="signup">
+
+        <div class="container">
+
+            <div class="signup-box">
+
+                <div class="signup-title">
+                    <h1>Smart Login System</h1>
+                </div>
+
+                <div class="signup-form">
+                    
+                    <form action="">
+                        <input 
+                        id="signupName" 
+                        name="signupName"
+                        type="text" class="form-control name-signup" placeholder="Enter your name" oninput="validation(this)">
+                    
+                    <div class="alert alert-danger p-2 my-2 d-none">
+                        <small><i class="fa-regular fa-circle-right p-2"></i> User name must be at least 3 characters</small>
+                    </div>
+
+
+                    <input id="signupEmail"
+                    name="signupEmail"
+                    type="email" class="form-control email-signup" placeholder="Enter your email" oninput="validation(this)">
+                    <div class="alert alert-danger p-2 my-2 d-none">
+                        <small><i class="fa-regular fa-circle-right p-2"></i> User email must a valid email</small>
+                    </div>
+                    
+                    <input id="signupPassword" 
+                    name="signupPassword"
+                    type="password" class="form-control password-signup" placeholder="Enter password" oninput="validation(this)">
+                    <div class="alert alert-danger p-2 my-2 d-none">
+                        <small><i class="fa-regular fa-circle-right p-2"></i> User password must be at least 3 characters</small>
+                    </div>
+
+                    <p id="signupError">
+
+                    </p>
+
+                    <button type="button" id="signupButton" class="btn btn-outline-info signup-button">Sign Up</button>
+
+                    <p>You have an account? <a href="./index.html"> Signin</a></p>
+                    </form>
+
+                    
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+  
+    <!-- Ending of thje sign up -->
+
+    
+
+    <!-- Sign up js -->
+    <script src="./js/signup.js"></script>
+</body>
+</html>
